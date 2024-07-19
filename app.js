@@ -1,11 +1,15 @@
 
 alert ('Bem vindo ao desafio do número');
 
+
+let nome = prompt ("Informe o seu nome")
 let entrenumeros = 100; 
 let numerosecreto = parseInt(Math.random() * entrenumeros + 1); 
 let chute; 
 tentativas = 1;
 let palavratentativa = tentativas > 1 ? 'tentativas' : 'tentativa'; 
+
+
 
 while (chute != numerosecreto) {
 
